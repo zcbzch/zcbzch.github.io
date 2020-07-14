@@ -56,6 +56,12 @@ https://www.jianshu.com/p/b084dfaad501
 
 http://47.98.159.95/my_blog/js-api/005.html#_1-%E7%AE%80%E6%98%93%E7%89%88%E5%8F%8A%E9%97%AE%E9%A2%98
 
+```
+const deepClone = (target) => {
+
+}
+```
+
 
 
 ### call
@@ -98,7 +104,7 @@ Function.prototype.myBind = function (context, ...args) {
   }
   context = context || window
   context.fn = this
-  _this = this
+  const _this = this
   return function Fn(...f_args) {
     let result = context.fn.myApply(context, [...args, ...f_args])
     delete context.fn

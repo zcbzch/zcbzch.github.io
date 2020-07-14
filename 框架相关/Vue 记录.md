@@ -75,13 +75,31 @@ https://juejin.im/post/5ac2fb886fb9a028b86e328c#heading-3
 
 
 
+### Virtual DOM
+
+- 性能
+
+- 跨平台兼容
+
+- 效率
+
+createElement - diff - patch
+
+https://juejin.im/post/5d3f3bf36fb9a06af824b3e2
+
+
+
 ### diff算法
 
 在采取diff算法比较新旧节点的时候，比较只会在同层级进行, 不会跨层级比较。（逐层比较）
 
+https://juejin.im/post/5affd01551882542c83301da
 
+https://juejin.im/post/5ad550f06fb9a028b4118d99
 
-#### 问答
+### 问题及题解
+
+持续更新
 
 > Q：Vue双向绑定的原理？数据劫持+发布订阅模式如何实现？
 >
@@ -288,7 +306,7 @@ https://juejin.im/post/5ac2fb886fb9a028b86e328c#heading-3
 
 > 浏览器缓存机制
 >
-> 见浏览器缓存
+> 见浏览器缓存文档
 
 
 
@@ -408,4 +426,12 @@ https://juejin.im/post/5ac2fb886fb9a028b86e328c#heading-3
 > hook:mounted
 >
 > 未完
+>
+> hook:beforeUpdate 更新之前
+>
+> hook:upadated
+>
+> hook:beforeDestroy 更新之前
+>
+> hook:destroyed
 
